@@ -1,6 +1,0 @@
-from tkinter import *
-
-tk=Tk()
-
-tk.title("Title Name") #Giving title name
-tk.geometry("500x500+0+0") #Setting size and position
