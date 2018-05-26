@@ -1,0 +1,13 @@
+from tkinter import *
+
+tk=Tk()
+
+tk.title("Title Name") #Giving title name
+tk.geometry("500x500+0+0") #Setting size and position
+
+a=Label(text="Label Name",fg="yellow",bg="black").pack()
+b=Button(text="Button",fg="cyan",bg="black").pack()
+c=Entry(fg="white",bg="black").pack()
+#pack() - Places at center of window, then down to the recent one by sequence
+#fg - Font colour
+#bg - Background colour
